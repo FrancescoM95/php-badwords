@@ -8,7 +8,14 @@
 </head>
 
 <body>
-
+    <h2>Inserisci il Testo e la Parola da Censurare</h2>
+    <form action="./script.php" method="get">
+        <label for="paragraph">Paragrafo:</label><br>
+        <textarea id="paragraph" name="paragraph" rows="4" cols="50"></textarea><br>
+        <label for="parola">Parola da Censurare:</label><br>
+        <input type="text" id="word" name="word"><br>
+        <button type="submit">Invia</button>
+    </form>
 </body>
 
 </html>
